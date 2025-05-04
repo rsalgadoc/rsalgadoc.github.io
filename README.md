@@ -113,28 +113,54 @@ pnpm dev
 
 ## Deployment
 
-Follow these steps to deploy your portfolio for free using GitHub and Vercel:
+Follow these steps to deploy your portfolio for free using GitHub Pages.
 
-1. Create a new GitHub repository
+1. Create a repository 
 
-2. Push your portfolio to GitHub
+<YOU_GITHUB_USERNAME>.github.io
 
-3. Deploy with Vercel:
-   - Go to [Vercel](https://vercel.com)
-   - Sign up or log in with GitHub
-   - Click "New Project"
-   - Import your GitHub repository
-   - Vercel will automatically detect Next.js
-   - Click "Deploy"
+In my case: rsalgadoc.github.io
 
-Your portfolio will be live in minutes with a free Vercel domain (e.g., `your-repo.vercel.app`). You can later add a custom domain in your Vercel project settings.
+2. On the new repository, go to Settings -> Pages -> Section "Build and deployment" and select "Git Hub Actions"
 
-## Support
 
-If you find these templates helpful, please consider:
+3 . Configure the Next.js Build Process
 
-- Starring the repository ⭐
-- Sharing with other developers
-- [Buying me a coffee](https://www.buymeacoffee.com/andreiancu) ☕
+change the output mode to export inside next.config.ts:
 
-For issues and feature requests, please [create an issue](https://github.com/devportfoliotemplates/devportfoliotemplates/issues).
+```javascript
+import type { NextConfig } from 'next'
+ 
+const nextConfig: NextConfig = {
+  output: 'export',
+  distDir: 'out',
+  reactStrictMode: true,
+  images: { unoptimized: true }
+}
+ 
+export default nextConfig;
+```
+
+4. Configure Github Actions
+
+- Create two files:
+
+```console
+.github/workflows/setup-node/action.yml
+```
+
+- Here the file: [action.yml](.github\workflows\setup-node\action.yml)
+
+```console
+.github/workflows/publish.yml
+```
+
+- Here the file: [publish.yml](.github\workflows\publish.yml)
+
+
+5. Commit and Push
+
+After committing and pushing your changes to the main branch, GitHub will automatically initiate the deployment to GitHub Pages.
+
+
+To inspect the process, navigate to the Actions tab, and select the publish-to-github-pages action from the menu on the left hand side. You will see a all your deployments on the screen (they are called workflows).

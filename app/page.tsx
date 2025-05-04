@@ -8,9 +8,7 @@ export default function WebDeveloperPortfolio() {
 	return (
 		<main className="min-h-screen bg-[#0D1117] text-white">
 			<HeroSection />
-			<SkillsSection />
 			<ProjectsSection />
-			<WebCapabilitiesSection />
 			<ContactSection />
 		</main>
 	);

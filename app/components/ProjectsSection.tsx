@@ -5,18 +5,13 @@ export const ProjectsSection = () => {
 	return (
 		<section id="work" className="py-12 sm:py-20 px-4 bg-[#161B22] scroll-mt-20">
 			<div className="max-w-6xl mx-auto">
-				<h2 className="text-2xl sm:text-3xl font-bold mb-8 sm:mb-12 text-center">Featured Projects</h2>
+				<h2 className="text-2xl sm:text-3xl font-bold mb-8 sm:mb-12 text-center">Ejemplo de mi trabajo</h2>
 				<div className="space-y-8 sm:space-y-12">
 					{[
 						{
-							title: 'E-commerce PWA',
-							description: 'High-performance Progressive Web App with offline capabilities',
-							metrics: {
-								performance: 98,
-								accessibility: 100,
-								seo: 100,
-							},
-							techDetails: ['Service Worker implementation', 'IndexedDB for offline data', 'Streaming SSR', 'Dynamic code splitting'],
+							title: 'API RESTful utilizando Spring Boot',
+							description: 'Implementa un endpoint para la autenticación de usuarios utilizando JWT, Implementa operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para las tareas',
+							techDetails: ['Java 17', 'Spring Boot 3.4', 'base de datos H2', 'JPA', 'JWT (JSON Web Token)', 'OpenAPI y Swagger'],
 							image: '/code.jpg',
 						},
 						{
@@ -36,19 +31,6 @@ export const ProjectsSection = () => {
 								<div className="p-4 sm:p-6 space-y-4 sm:space-y-6">
 									<h3 className="text-xl sm:text-2xl font-bold">{project.title}</h3>
 									<p className="text-sm sm:text-base text-gray-400">{project.description}</p>
-
-									{/* Performance Metrics */}
-									<div className="space-y-3">
-										<h4 className="text-base sm:text-lg font-semibold">Performance Metrics</h4>
-										<div className="grid grid-cols-3 gap-2 sm:gap-4">
-											{Object.entries(project.metrics).map(([key, value]) => (
-												<div key={key} className="text-center">
-													<div className="text-2xl font-bold text-blue-400">{value}</div>
-													<div className="text-sm text-gray-400 capitalize">{key}</div>
-												</div>
-											))}
-										</div>
-									</div>
 
 									{/* Technical Implementation */}
 									<div>
