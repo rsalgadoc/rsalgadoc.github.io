@@ -15,7 +15,7 @@ export const ProjectsSection = () => {
 								{ name: 'Source code', value: 'https://github.com/rsalgadoc/desafio-spring-boot' },
 								{ name: 'Real Time Example', value: 'http://ec2-3-133-140-15.us-east-2.compute.amazonaws.com:8080/swagger-ui/index.html' },
 							],
-							techDetails: ['Java 17', 'Spring Boot 3.4', 'base de datos H2', 'JPA', 'JWT (JSON Web Token)', 'OpenAPI y Swagger'],
+							techDetails: ['Java 17', 'Spring Boot 3.4', 'Base de datos H2', 'JPA', 'JWT (JSON Web Token)', 'OpenAPI y Swagger'],
 							image: '/code.png',
 						},
 					].map((project) => (
@@ -31,6 +31,7 @@ export const ProjectsSection = () => {
 											href={link.value}
 											target="_blank"
 											rel="noopener noreferrer"
+											key={link.name} 
 											className="px-6 sm:px-8 py-3 bg-[#2D333B] rounded-full hover:bg-[#2D333B] transition-colors border border-[#2D333B] hover:border-gray-600 text-center"
 										>
 										  {link.name}
