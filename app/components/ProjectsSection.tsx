@@ -11,19 +11,12 @@ export const ProjectsSection = () => {
 						{
 							title: 'API RESTful utilizando Spring Boot',
 							description: 'Implementa un endpoint para la autenticación de usuarios utilizando JWT, Implementa operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para las tareas',
+							links: [
+								{ name: 'Source code', value: 'https://github.com/rsalgadoc/desafio-spring-boot' },
+								{ name: 'Real Time Example', value: 'http://ec2-3-133-140-15.us-east-2.compute.amazonaws.com:8080/swagger-ui/index.html' },
+							],
 							techDetails: ['Java 17', 'Spring Boot 3.4', 'base de datos H2', 'JPA', 'JWT (JSON Web Token)', 'OpenAPI y Swagger'],
-							image: '/code.jpg',
-						},
-						{
-							title: 'Real-time Collaboration Platform',
-							description: 'WebSocket-based platform with conflict resolution',
-							metrics: {
-								performance: 95,
-								accessibility: 98,
-								seo: 100,
-							},
-							techDetails: ['WebSocket optimization', 'CRDT implementation', 'Custom state management', 'WebRTC integration'],
-							image: '/code.jpg',
+							image: '/code.png',
 						},
 					].map((project) => (
 						<div key={project.title} className="bg-[#21262D] rounded-lg overflow-hidden">
@@ -31,7 +24,19 @@ export const ProjectsSection = () => {
 								<div className="p-4 sm:p-6 space-y-4 sm:space-y-6">
 									<h3 className="text-xl sm:text-2xl font-bold">{project.title}</h3>
 									<p className="text-sm sm:text-base text-gray-400">{project.description}</p>
-
+									{/* Code Links */}
+									<div>
+										{project.links.map((link) => (
+										<a
+											href={link.value}
+											target="_blank"
+											rel="noopener noreferrer"
+											className="px-6 sm:px-8 py-3 bg-[#2D333B] rounded-full hover:bg-[#2D333B] transition-colors border border-[#2D333B] hover:border-gray-600 text-center"
+										>
+										  {link.name}
+										</a>
+										))}
+									</div>
 									{/* Technical Implementation */}
 									<div>
 										<h4 className="text-base sm:text-lg font-semibold mb-2 sm:mb-3">Technical Implementation</h4>
