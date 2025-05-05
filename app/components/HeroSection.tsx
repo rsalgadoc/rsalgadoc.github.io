@@ -40,7 +40,7 @@ export const HeroSection = () => {
 								<span className="h-[1px] w-8 sm:w-12 bg-blue-500"></span>
 							</div>
 							<p className="text-base sm:text-lg text-gray-400 max-w-2xl px-4 sm:px-0">
-								Crafting exceptional digital experiences with modern web technologies
+								Creando experiencias digitales excepcionales con tecnologías web modernas
 							</p>
 						</div>
 
@@ -62,7 +62,7 @@ export const HeroSection = () => {
 						<a href="#work" className="group relative inline-flex items-center justify-center">
 							<div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full blur opacity-75 group-hover:opacity-100 transition"></div>
 							<span className="relative px-6 sm:px-8 py-3 bg-[#161B22] rounded-full inline-flex items-center justify-center w-full sm:w-auto">
-								View My Work
+								Ver mi trabajo
 								<svg className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
 								</svg>
@@ -72,7 +72,7 @@ export const HeroSection = () => {
 							href="#contact"
 							className="px-6 sm:px-8 py-3 bg-[#21262D] rounded-full hover:bg-[#2D333B] transition-colors border border-[#2D333B] hover:border-gray-600 text-center"
 						>
-							Get in Touch
+							Contáctame
 						</a>
 					</div>
 
@@ -94,7 +94,7 @@ export const HeroSection = () => {
 
 			{/* Scroll Indicator */}
 			<div className="absolute bottom-8 inset-x-0 flex flex-col items-center animate-bounce">
-				<span className="text-gray-400 text-sm mb-2 text-center">Scroll to explore</span>
+				<span className="text-gray-400 text-sm mb-2 text-center">Scroll para explorar</span>
 				<svg className="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
 				</svg>
