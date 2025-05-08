@@ -4,8 +4,7 @@ export const ContactSection = () => {
 	return (
 		<section id="contact" className="py-12 sm:py-20 px-4 bg-[#161B22] scroll-mt-20">
 			<div className="max-w-4xl mx-auto text-center px-4 sm:px-6">
-				<h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">Let&apos;s Build Something Amazing</h2>
-				<p className="text-sm sm:text-base text-gray-400 mb-6">Looking for a developer who can create high-performance, interactive web experiences?</p>
+				<h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">Construyamos algo asombroso</h2>
 
 				{/* Location */}
 				<div className="flex items-center justify-center gap-2 text-gray-400 mb-8">
@@ -31,7 +30,7 @@ export const ContactSection = () => {
 							<path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
 							<path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
 						</svg>
-						Get in Touch
+						Contáctame
 					</a>
 					<a
 						href="/resume.pdf"
@@ -46,7 +45,7 @@ export const ContactSection = () => {
 							/>
 							<path fillRule="evenodd" d="M8 11a1 1 0 100 2h4a1 1 0 100-2H8zm0-4a1 1 0 100 2h4a1 1 0 100-2H8z" clipRule="evenodd" />
 						</svg>
-						View Resume
+						Ver currículum
 					</a>
 				</div>
 
