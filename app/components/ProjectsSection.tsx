@@ -13,7 +13,8 @@ export const ProjectsSection = () => {
 							description: 'Aplicación para el manejo de usuario(CRUD), usando Angular + Spring Boot, con Spring Security y JWT',
 							links: [
 								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/users-app' },
-								{ name: 'Ver funcionando(AWS)', value: 'http://ec2-3-133-140-15.us-east-2.compute.amazonaws.com' },
+								{ name: 'AWS EC2 con Docker', value: 'http://ec2-3-133-140-15.us-east-2.compute.amazonaws.com' },
+								{ name: 'S3 Bucket (Frontend)', value: 'http://frontend-angular-admin.s3-website.us-east-2.amazonaws.com/' },
 							],
 							techDetails: ['Java 17', 'Spring Boot 3.4.5', 'Angular 19', 'Base de datos H2', 'JPA', 'JWT (JSON Web Token)'],
 							image: '/angular-spring-boot.png',
@@ -35,14 +36,14 @@ export const ProjectsSection = () => {
 									<h3 className="text-xl sm:text-2xl font-bold">{project.title}</h3>
 									<p className="text-sm sm:text-base text-gray-400">{project.description}</p>
 									{/* Code Links */}
-									<div>
+									<div className="flex flex-wrap justify-center gap-3">
 										{project.links.map((link) => (
 										<a
 											href={link.value}
 											target="_blank"
 											rel="noopener noreferrer"
 											key={link.name} 
-											className="px-6 sm:px-8 py-3 bg-[#2D333B] rounded-full hover:bg-[#2D333B] transition-colors border border-[#2D333B] hover:border-gray-600 text-center"
+											className="group relative inline-flex px-6 sm:px-8 py-3 bg-[#2D333B] rounded-full hover:bg-[#2D333B] transition-colors border border-[#2D333B] hover:border-gray-600 text-center"
 										>
 										  {link.name}
 										</a>
