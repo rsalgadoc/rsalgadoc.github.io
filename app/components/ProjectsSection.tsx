@@ -13,7 +13,7 @@ export const ProjectsSection = () => {
 							description: 'Aplicación para el manejo de usuario(CRUD), usando Angular + Spring Boot, con Spring Security y JWT',
 							links: [
 								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/users-app' },
-								{ name: 'Demo (AWS EC2 Docker)', value: 'http://ec2-3-133-140-15.us-east-2.compute.amazonaws.com' },
+								{ name: 'Demo (AWS EC2 Docker)', value: 'http://ec2-3-133-140-15.us-east-2.compute.amazonaws.com/users-app/' },
 								{ name: 'Demo (S3 Bucket)', value: 'http://frontend-angular-admin.s3-website.us-east-2.amazonaws.com/' },
 							],
 							techDetails: ['Java 17', 'Spring Boot 3.4.5', 'Angular 19', 'Base de datos H2', 'JPA', 'JWT (JSON Web Token)'],
