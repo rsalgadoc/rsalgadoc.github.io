@@ -24,7 +24,7 @@ export const ProjectsSection = () => {
 							description: 'Implementa un endpoint para la autenticación de usuarios utilizando JWT, Implementa operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para las tareas',
 							links: [
 								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/desafio-spring-boot' },
-								{ name: 'Demo (AWS EC2 Docker)', value: 'http://ec2-3-133-140-15.us-east-2.compute.amazonaws.com:8080/swagger-ui/index.html' },
+								{ name: 'Demo (AWS EC2 Docker)', value: 'http://ec2-3-133-140-15.us-east-2.compute.amazonaws.com/taskmanagement/backend/swagger-ui/index.html' },
 							],
 							techDetails: ['Java 17', 'Spring Boot 3.4.3', 'Base de datos H2', 'JPA', 'JWT (JSON Web Token)', 'OpenAPI y Swagger'],
 							image: '/code.png',
