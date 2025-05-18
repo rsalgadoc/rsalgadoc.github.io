@@ -20,6 +20,16 @@ export const ProjectsSection = () => {
 							image: '/angular-spring-boot.png',
 						},
 						{
+							title: 'MongoDB, Express.js, Angular y Node.js',
+							description: 'Todo List Application using MEAN Stack',
+							links: [
+								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/todo-list-app-mean' },
+								{ name: 'Demo (AWS EC2 Docker)', value: 'http://ec2-3-133-140-15.us-east-2.compute.amazonaws.com/todo-list-app-mean/' },
+							],
+							techDetails: ['MongoDB 8.0.9', 'Express.js 5.1.0', 'Angular 19', 'Node.js 22.15.0'],
+							image: '/todo-list-app-mean.png',
+						},
+						{
 							title: 'API RESTful utilizando Spring Boot',
 							description: 'Implementa un endpoint para la autenticación de usuarios utilizando JWT, Implementa operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para las tareas',
 							links: [
