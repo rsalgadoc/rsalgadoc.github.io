@@ -9,6 +9,16 @@ export const ProjectsSection = () => {
 				<div className="space-y-8 sm:space-y-12">
 					{[
 						{
+							title: 'Next.js & Spring Boot',
+							description: 'Aplicación para el manejo de tareas, usando Next.js + Spring Boot, con Spring Security y JWT',
+							links: [
+								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/task-app' },
+								{ name: 'Demo (AWS EC2 Docker)', value: 'http://ec2-3-133-140-15.us-east-2.compute.amazonaws.com/frontend-next-app/' },
+							],
+							techDetails: ['Java 17', 'Spring Boot 3.4.6', 'Next.js 15', 'Base de datos H2', 'JPA', 'JWT (JSON Web Token)'],
+							image: '/frontend-next-app.png',
+						},
+						{
 							title: 'Angular & Spring Boot',
 							description: 'Aplicación para el manejo de usuario(CRUD), usando Angular + Spring Boot, con Spring Security y JWT',
 							links: [
