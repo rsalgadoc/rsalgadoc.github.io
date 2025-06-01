@@ -1,4 +1,5 @@
 import React from 'react';
+import { Laptop2, CloudCheckCircle, GitHub, Envelope1 } from './icons';
 
 export const HeroSection = () => {
 	return (
@@ -46,7 +47,7 @@ export const HeroSection = () => {
 
 						{/* Tech Stack Pills */}
 						<div className="flex flex-wrap justify-center gap-2 sm:gap-3 mt-6 sm:mt-8 px-4 sm:px-0">
-							{['Java', 'Spring Boot', 'Angular', 'Docker', 'Kubernetes', 'AWS'].map((tech) => (
+							{['Java', 'Spring Boot', 'Angular', 'Next.js', 'Docker', 'Kubernetes', 'AWS'].map((tech) => (
 								<span
 									key={tech}
 									className="px-3 sm:px-4 py-1 sm:py-1.5 bg-[#1A1F2B] rounded-full text-sm font-medium text-gray-300 border border-[#2D333B] hover:border-blue-500/50 transition-colors"
@@ -79,13 +80,13 @@ export const HeroSection = () => {
 					{/* Social Links */}
 					<div className="flex justify-center gap-4 sm:gap-6 mt-8 sm:mt-12">
 						{[
-							{ name: 'GitHub', icon: '🐙', href: '#' },
-							{ name: 'LinkedIn', icon: '💼', href: '#' },
-							{ name: 'Twitter', icon: '🐦', href: '#' },
-							{ name: 'Blog', icon: '✍️', href: '#' },
+							{ name: 'Work', icon: Laptop2, href: '#work' },
+							{ name: 'Health Status', icon: CloudCheckCircle, href: 'http://ec2-3-133-140-15.us-east-2.compute.amazonaws.com/' },
+							{ name: 'GitHub', icon: GitHub, href: 'https://github.com/rsalgadoc' },
+							{ name: 'Mail', icon: Envelope1, href: 'mailto:rodrigo.salgado.cordova@gmail.com' },
 						].map((social) => (
 							<a key={social.name} href={social.href} className="group relative p-2 sm:p-3 hover:text-blue-400 transition-colors" aria-label={social.name}>
-								<span className="text-xl sm:text-2xl group-hover:scale-110 transition-transform inline-block">{social.icon}</span>
+								<span className="text-xl sm:text-2xl group-hover:scale-110 transition-transform inline-block">{<social.icon/>}</span>
 							</a>
 						))}
 					</div>
