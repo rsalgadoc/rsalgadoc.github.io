@@ -39,8 +39,8 @@ export const ProjectsSection = () => {
 							techDetails: ['MongoDB 8.0.9', 'Express.js 5.1.0', 'Angular 19', 'Node.js 22.15.0'],
 							image: '/todo-list-app-mean.png',
 						},
-												{
-							title: 'Next.js Admin Dashboard',
+						{
+							title: 'Next.js Admin Dashboard - Xtreme Nextjs Admin',
 							description: 'Plantilla de panel de administración para proyecto Next.js',
 							links: [
 								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/dashboard-next' },
@@ -48,6 +48,16 @@ export const ProjectsSection = () => {
 							],
 							techDetails: ['Next.js 15'],
 							image: '/dashboard-next.png',
+						},
+						{
+							title: 'Next.js Admin Dashboard - Dash UI NextJS',
+							description: 'Plantilla de panel de administración para proyecto Next.js',
+							links: [
+								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/dashboard-next2' },
+								{ name: 'Demo (AWS EC2 Docker)', value: 'http://ec2-3-133-140-15.us-east-2.compute.amazonaws.com/dashboard-next2/' },
+							],
+							techDetails: ['Next.js 15'],
+							image: '/dashboard-next2.png',
 						},
 						{
 							title: 'API RESTful utilizando Spring Boot',

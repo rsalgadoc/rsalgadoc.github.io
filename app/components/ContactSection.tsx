@@ -32,7 +32,7 @@ export const ContactSection = () => {
 						</svg>
 						Contáctame
 					</a>
-					<a
+{/* 					<a
 						href="/resume.pdf"
 						target="_blank"
 						className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#21262D] border border-gray-800 rounded-lg font-medium hover:bg-gray-900 transition-colors"
@@ -46,7 +46,7 @@ export const ContactSection = () => {
 							<path fillRule="evenodd" d="M8 11a1 1 0 100 2h4a1 1 0 100-2H8zm0-4a1 1 0 100 2h4a1 1 0 100-2H8z" clipRule="evenodd" />
 						</svg>
 						Ver currículum
-					</a>
+					</a> */}
 				</div>
 
 				{/* Social Links */}
