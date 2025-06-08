@@ -40,6 +40,16 @@ export const ProjectsSection = () => {
 							image: '/todo-list-app-mean.png',
 						},
 						{
+							title: 'Angular Admin Template',
+							description: 'Plantilla de panel de administración para proyecto Angular',
+							links: [
+								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/dashboard-angular' },
+								{ name: 'Demo (AWS EC2 Docker)', value: 'http://ec2-3-133-140-15.us-east-2.compute.amazonaws.com/dashboard-angular/' },
+							],
+							techDetails: ['Angular 19'],
+							image: '/dashboard-angular.png',
+						},
+						{
 							title: 'Next.js Admin Dashboard - Xtreme Nextjs Admin',
 							description: 'Plantilla de panel de administración para proyecto Next.js',
 							links: [
