@@ -13,7 +13,7 @@ export const ProjectsSection = () => {
 							description: 'Aplicación para el manejo de tareas, usando Next.js + Spring Boot, con Spring Security y JWT',
 							links: [
 								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/task-app' },
-								{ name: 'Demo (AWS EC2 Docker)', value: 'http://ec2-35-170-201-29.compute-1.amazonaws.com/frontend-next-app/' },
+								{ name: 'Demo (AWS EC2 Docker)', value: 'http://ec2-44-201-227-174.compute-1.amazonaws.com/frontend-next-app/' },
 							],
 							techDetails: ['Java 17', 'Spring Boot 3.4.6', 'Next.js 15', 'Base de datos H2', 'JPA', 'JWT (JSON Web Token)'],
 							image: '/frontend-next-app.png',
@@ -23,8 +23,7 @@ export const ProjectsSection = () => {
 							description: 'Aplicación para el manejo de usuario(CRUD), usando Angular + Spring Boot, con Spring Security y JWT',
 							links: [
 								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/users-app' },
-								{ name: 'Demo (AWS EC2 Docker)', value: 'http://ec2-35-170-201-29.compute-1.amazonaws.com/users-app/' },
-								{ name: 'Demo (S3 Bucket)', value: 'http://frontend-angular-admin.s3-website.us-east-2.amazonaws.com/' },
+								{ name: 'Demo (AWS S3 & EC2 Docker)', value: 'http://frontend-angular-admin.s3-website.us-east-2.amazonaws.com/' },
 							],
 							techDetails: ['Java 17', 'Spring Boot 3.4.5', 'Angular 19', 'Base de datos H2', 'JPA', 'JWT (JSON Web Token)'],
 							image: '/angular-spring-boot.png',
@@ -34,7 +33,7 @@ export const ProjectsSection = () => {
 							description: 'Todo List Application using MEAN Stack',
 							links: [
 								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/todo-list-app-mean' },
-								{ name: 'Demo (AWS EC2 Docker)', value: 'http://ec2-35-170-201-29.compute-1.amazonaws.com/todo-list-app-mean/' },
+								{ name: 'Demo (AWS S3 & EC2 Docker)', value: 'http://rsalgadoc-todo-list-app-mean.s3-website-us-east-1.amazonaws.com/' },
 							],
 							techDetails: ['MongoDB 8.0.9', 'Express.js 5.1.0', 'Angular 19', 'Node.js 22.15.0'],
 							image: '/todo-list-app-mean.png',
@@ -44,7 +43,7 @@ export const ProjectsSection = () => {
 							description: 'Plantilla de panel de administración para proyecto Angular',
 							links: [
 								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/dashboard-angular' },
-								{ name: 'Demo (AWS EC2 Docker)', value: 'http://ec2-35-170-201-29.compute-1.amazonaws.com/dashboard-angular/' },
+								{ name: 'Demo (AWS S3 Bucket)', value: 'http://rsalgadoc-dashboard-angular.s3-website-us-east-1.amazonaws.com' },
 							],
 							techDetails: ['Angular 19'],
 							image: '/dashboard-angular.png',
@@ -54,7 +53,7 @@ export const ProjectsSection = () => {
 							description: 'Plantilla de panel de administración para proyecto Next.js',
 							links: [
 								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/dashboard-next' },
-								{ name: 'Demo (AWS EC2 Docker)', value: 'http://ec2-35-170-201-29.compute-1.amazonaws.com/dashboard-next/' },
+								{ name: 'Demo (AWS S3 Bucket)', value: 'http://rsalgadoc-dashboard-next.s3-website-us-east-1.amazonaws.com/' },
 							],
 							techDetails: ['Next.js 15'],
 							image: '/dashboard-next.png',
@@ -64,7 +63,7 @@ export const ProjectsSection = () => {
 							description: 'Plantilla de panel de administración para proyecto Next.js',
 							links: [
 								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/dashboard-next2' },
-								{ name: 'Demo (AWS EC2 Docker)', value: 'http://ec2-35-170-201-29.compute-1.amazonaws.com/dashboard-next2/' },
+								{ name: 'Demo (AWS S3 Bucket)', value: 'http://rsalgadoc-dashboard-next2.s3-website-us-east-1.amazonaws.com/' },
 							],
 							techDetails: ['Next.js 15'],
 							image: '/dashboard-next2.png',
@@ -74,7 +73,7 @@ export const ProjectsSection = () => {
 							description: 'Implementa un endpoint para la autenticación de usuarios utilizando JWT, Implementa operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para las tareas',
 							links: [
 								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/desafio-spring-boot' },
-								{ name: 'Demo (AWS EC2 Docker)', value: 'http://ec2-35-170-201-29.compute-1.amazonaws.com/taskmanagement/backend/swagger-ui/index.html' },
+								{ name: 'Demo (AWS EC2 Docker)', value: 'http://ec2-44-201-227-174.compute-1.amazonaws.com/taskmanagement/backend/swagger-ui/index.html' },
 							],
 							techDetails: ['Java 17', 'Spring Boot 3.4.3', 'Base de datos H2', 'JPA', 'JWT (JSON Web Token)', 'OpenAPI y Swagger'],
 							image: '/code.png',

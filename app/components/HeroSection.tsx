@@ -81,7 +81,7 @@ export const HeroSection = () => {
 					<div className="flex justify-center gap-4 sm:gap-6 mt-8 sm:mt-12">
 						{[
 							{ name: 'Work', icon: Laptop2, href: '#work' },
-							{ name: 'Health Status', icon: CloudCheckCircle, href: 'http://ec2-35-170-201-29.compute-1.amazonaws.com/' },
+							{ name: 'Health Status', icon: CloudCheckCircle, href: 'http://ec2-44-201-227-174.compute-1.amazonaws.com/' },
 							{ name: 'GitHub', icon: GitHub, href: 'https://github.com/rsalgadoc' },
 							{ name: 'Mail', icon: Envelope1, href: 'mailto:rodrigo.salgado.cordova@gmail.com' },
 						].map((social) => (
