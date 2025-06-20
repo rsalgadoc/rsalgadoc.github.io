@@ -69,6 +69,16 @@ export const ProjectsSection = () => {
 							image: '/dashboard-next2.png',
 						},
 						{
+							title: 'Next.js Financial Dashboard',
+							description: 'Panel de administración para proyecto Next.js',
+							links: [
+								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/financial-dashboard-next' },
+								{ name: 'Demo (Vercel)', value: 'https://financial-dashboard-next-six.vercel.app/login' },
+							],
+							techDetails: ['Next.js 15'],
+							image: '/financial-dashboard-next.png',
+						},
+						{
 							title: 'API RESTful utilizando Spring Boot',
 							description: 'Implementa un endpoint para la autenticación de usuarios utilizando JWT, Implementa operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para las tareas',
 							links: [
