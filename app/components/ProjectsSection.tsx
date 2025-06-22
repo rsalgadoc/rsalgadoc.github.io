@@ -89,6 +89,16 @@ export const ProjectsSection = () => {
 							image: '/blog-nextjs.png',
 						},
 						{
+							title: 'CRM Dashboard using Refine',
+							description: 'Real-Time CRM Dashboard has been developed using Refine, Ant Design, and GraphQL.',
+							links: [
+								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/app-crm-minimal' },
+								{ name: 'Demo (Vercel)', value: 'https://app-crm-minimal-psi.vercel.app/' },
+							],
+							techDetails: ['Refine','Ant Design','React', 'Nestjs-query'],
+							image: '/app-crm-minimal.png',
+						},
+						{
 							title: 'API RESTful utilizando Spring Boot',
 							description: 'Implementa un endpoint para la autenticación de usuarios utilizando JWT, Implementa operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para las tareas',
 							links: [
