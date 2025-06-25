@@ -99,6 +99,16 @@ export const ProjectsSection = () => {
 							image: '/app-crm-minimal.png',
 						},
 						{
+							title: 'Rate-limiting example',
+							description: 'This application demonstrates rate limiting using Redis and Spring.',
+							links: [
+								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/redis-rate-limiting-demo-java' },
+								{ name: 'Demo (Vercel)', value: 'https://redis-rate-limiting-demo-java.onrender.com/' },
+							],
+							techDetails: ['Redis','Spring Boot'],
+							image: '/redis-rate-limiting.png',
+						},
+						{
 							title: 'API RESTful utilizando Spring Boot',
 							description: 'Implementa un endpoint para la autenticación de usuarios utilizando JWT, Implementa operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para las tareas',
 							links: [
