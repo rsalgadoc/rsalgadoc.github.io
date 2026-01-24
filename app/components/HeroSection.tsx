@@ -27,7 +27,7 @@ export const HeroSection = () => {
 					{/* Name Section */}
 					<div className="relative inline-block px-4 sm:px-0">
 						<div className="absolute -inset-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-2xl blur-xl opacity-75"></div>
-						<h1 className="relative text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight bg-clip-text bg-gradient-to-r from-white to-gray-300 pb-2">
+						<h1 className="relative text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight bg-clip-text bg-gradient-to-r from-white to-gray-300 pb-2">
 							Rodrigo Salgado
 						</h1>
 					</div>
@@ -55,6 +55,11 @@ export const HeroSection = () => {
 									{tech}
 								</span>
 							))}
+						</div>
+						{/* START_SECTION:badges */}
+						<div className="flex flex-wrap justify-center gap-2 sm:gap-3 mt-6 sm:mt-8 px-4 sm:px-0">
+							<a href="https://www.credly.com/badges/c3856623-103f-49ea-99ff-f71556026c13" title="AWS Certified AI Practitioner"><img src="https://images.credly.com/size/100x100/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png" alt="AWS Certified AI Practitioner" width="100" height="100" /></a>
+							<a href="https://www.credly.com/badges/f0c6b711-2ae5-4224-a5e0-98f0e867b30f" title="AWS Certified Cloud Practitioner"><img src="https://images.credly.com/size/100x100/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" alt="AWS Certified Cloud Practitioner" width="100" height="100" /></a>
 						</div>
 					</div>
 
