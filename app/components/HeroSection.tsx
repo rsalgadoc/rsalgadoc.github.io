@@ -58,6 +58,7 @@ export const HeroSection = () => {
 						</div>
 						{/* START_SECTION:badges */}
 						<div className="flex flex-wrap justify-center gap-2 sm:gap-3 mt-6 sm:mt-8 px-4 sm:px-0">
+							<a href="https://www.credly.com/badges/1f2dd61b-52ad-4ecc-a5fd-54012355450f" title="AWS Certified Developer – Associate"><img src="https://images.credly.com/size/80x80/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png" alt="AWS Certified Developer – Associate" width="100" height="100"/></a>
 							<a href="https://www.credly.com/badges/c3856623-103f-49ea-99ff-f71556026c13" title="AWS Certified AI Practitioner"><img src="https://images.credly.com/size/100x100/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png" alt="AWS Certified AI Practitioner" width="100" height="100" /></a>
 							<a href="https://www.credly.com/badges/f0c6b711-2ae5-4224-a5e0-98f0e867b30f" title="AWS Certified Cloud Practitioner"><img src="https://images.credly.com/size/100x100/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" alt="AWS Certified Cloud Practitioner" width="100" height="100" /></a>
 						</div>
