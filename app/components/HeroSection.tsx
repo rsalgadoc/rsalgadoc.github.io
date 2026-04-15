@@ -37,7 +37,7 @@ export const HeroSection = () => {
 						<div className="flex flex-col items-center gap-4">
 							<div className="flex items-center gap-3">
 								<span className="h-[1px] w-8 sm:w-12 bg-blue-500"></span>
-								<h2 className="text-xl sm:text-2xl font-light tracking-wide text-blue-400">Java Developer</h2>
+								<h2 className="text-xl sm:text-2xl font-light tracking-wide text-blue-400">AWS Certified Developer - Associate</h2>
 								<span className="h-[1px] w-8 sm:w-12 bg-blue-500"></span>
 							</div>
 							<p className="text-base sm:text-lg text-gray-400 max-w-2xl px-4 sm:px-0">
@@ -87,7 +87,7 @@ export const HeroSection = () => {
 					<div className="flex justify-center gap-4 sm:gap-6 mt-8 sm:mt-12">
 						{[
 							{ name: 'Work', icon: Laptop2, href: '#work' },
-							{ name: 'Health Status', icon: CloudCheckCircle, href: 'http://ec2-44-201-227-174.compute-1.amazonaws.com/' },
+							{ name: 'Blog', icon: CloudCheckCircle, href: 'https://rsalgadoc.github.io/blog/' },
 							{ name: 'GitHub', icon: GitHub, href: 'https://github.com/rsalgadoc' },
 							{ name: 'Mail', icon: Envelope1, href: 'mailto:rodrigo.salgado.cordova@gmail.com' },
 						].map((social) => (

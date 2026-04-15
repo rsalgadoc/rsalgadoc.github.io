@@ -9,6 +9,26 @@ export const ProjectsSection = () => {
 				<div className="space-y-8 sm:space-y-12">
 					{[
 						{
+							title: 'AWS Serverless Projects',
+							description: 'Monorepo con proyectos de AWS Serverless e Inteligencia Artificial para procesamiento de imágenes y documentos con Amazon Rekognition y AWS Textract.',
+							links: [
+								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/aws-projects' },
+								{ name: 'Explorar el proyecto', value: 'https://github.com/rsalgadoc/aws-projects/tree/main/projects/s3-ia-processor-java' },
+							],
+							techDetails: ['Java 17', 'AWS Lambda', 'Amazon S3', 'Amazon Rekognition', 'AWS Textract', 'CloudFormation'],
+							image: '/aws-serverless-projects.png',
+						},
+						{
+							title: 'Blog',
+							description: 'Blog, AWS Daily Insights: Arquitectura, Automatización y Mejores Prácticas en la Nube',
+							links: [
+								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/blog' },
+								{ name: 'Ir al blog', value: 'https://rsalgadoc.github.io/blog/' },
+							],
+							techDetails: ['Jekyll', 'GitHub Pages', 'Minimal Mistakes(Theme)'],
+							image: '/blog.png',
+						},
+						{
 							title: 'Next.js & Spring Boot',
 							description: 'Aplicación para el manejo de tareas, usando Next.js + Spring Boot, con Spring Security y JWT',
 							links: [
