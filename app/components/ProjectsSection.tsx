@@ -13,7 +13,7 @@ export const ProjectsSection = () => {
 							description: 'Monorepo con proyectos de AWS Serverless e Inteligencia Artificial para procesamiento de imágenes y documentos con Amazon Rekognition y AWS Textract.',
 							links: [
 								{ name: 'Código fuente', value: 'https://github.com/rsalgadoc/aws-projects' },
-								{ name: 'Explorar el proyecto', value: 'https://github.com/rsalgadoc/aws-projects/tree/main/projects/s3-ia-processor-java' },
+								{ name: 'Live Demo', value: 'https://main.d1e1spvedb1w6y.amplifyapp.com/' },
 							],
 							techDetails: ['Java 17', 'AWS Lambda', 'Amazon S3', 'Amazon Rekognition', 'AWS Textract', 'CloudFormation'],
 							image: '/aws-serverless-projects.png',
