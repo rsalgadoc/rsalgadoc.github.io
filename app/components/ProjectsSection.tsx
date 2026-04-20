@@ -16,7 +16,7 @@ export const ProjectsSection = () => {
 								{ name: 'Live Demo', value: 'https://main.d1e1spvedb1w6y.amplifyapp.com/' },
 							],
 							techDetails: ['Java 17', 'AWS Lambda', 'Amazon S3', 'Amazon Rekognition', 'AWS Textract', 'CloudFormation'],
-							image: '/aws-serverless-projects.png',
+							image: '/aws-serverless-projects-diagram.png',
 						},
 						{
 							title: 'Blog',
